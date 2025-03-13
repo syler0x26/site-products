@@ -1,4 +1,5 @@
 @media (max-width:999px){
+
     .nav-list{
         position: absolute;
         top: 8vh;
@@ -20,6 +21,10 @@
         display: block;
         padding-right: 3.5rem;
     }
+    section#home{
+        background: linear-gradient(to top, rgba(238, 130, 238, 0.205) 3%, transparent ), url('img/back-home-me.jpg') top center;
+        background-size: cover;
+    }
     .box-home{
         width: 70%;
     }
@@ -33,5 +38,10 @@
         width: 270px;
         background-color: var(--corSe);
         border-radius: 1rem;
+    }
+}
+@media (max-width:640px){
+    .box-home{
+        width: 90%;
     }
 }
