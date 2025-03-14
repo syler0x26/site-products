@@ -45,10 +45,3 @@
         width: 90%;
     }
 }
-/*horizontal*/
-@media (orientation: landscape){
-    .mobile-menu{
-        cursor: pointer;
-        display: none;
-    }
-}
